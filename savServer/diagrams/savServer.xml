@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><entities>
+	<entity>
+		<entity-name>com.sav.cloud.entities.Catalogo</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>228</entity-height>
+		<entity-X-Coordinate>140</entity-X-Coordinate>
+		<entity-Y-Coordinate>120</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.sav.cloud.entities.Material</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>448</entity-height>
+		<entity-X-Coordinate>420</entity-X-Coordinate>
+		<entity-Y-Coordinate>60</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>true</basic-collapsed>
+	</entity>
+</entities>
