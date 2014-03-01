@@ -48,9 +48,7 @@ public class CatalogoEJBServlet extends HttpServlet {
 			List<Catalogo> catalogos  = catalogoBean.getAllCatalogos();
 			//Se realiza la conversion JSON
 			gson = new Gson();
-			response.getWriter().write(gson.toJson(catalogos));
-			
-						
+			response.getWriter().write(gson.toJson(catalogos));			
 			
 		} catch (Exception e) {
 			response.getWriter().println(
@@ -66,7 +64,7 @@ public class CatalogoEJBServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		doGet(request, response);
 	}
 
 }

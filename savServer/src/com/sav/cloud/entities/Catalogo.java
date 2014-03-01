@@ -5,6 +5,8 @@ import java.sql.Date;
 import java.sql.Time;
 
 import javax.persistence.*;
+import com.sav.cloud.entities.ListaHeader;
+import java.util.List;
 
 /**
  * Entity implementation class for Entity: Catalogo
@@ -51,6 +53,9 @@ public class Catalogo implements Serializable {
 	@Basic
 	@Column(name="CAT_HORA_MOD")
 	private Time horaModificacion;
+
+//	@OneToMany(fetch=FetchType.LAZY, mappedBy="catalogo")
+//	private List<ListaHeader> listaHeader;
 
 	public Catalogo() {
 		super();
@@ -119,5 +124,13 @@ public class Catalogo implements Serializable {
 	public void setHoraModificacion(Time horaModificacion) {
 		this.horaModificacion = horaModificacion;
 	}
+//
+//	public List<ListaHeader> getListaHeader() {
+//	    return listaHeader;
+//	}
+//
+//	public void setListaHeader(List<ListaHeader> param) {
+//	    this.listaHeader = param;
+//	}
 
 }
